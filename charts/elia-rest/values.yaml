@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.99.210.80:5000/nebrass/elia-rest
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: elia-rest
